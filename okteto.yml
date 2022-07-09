@@ -1,0 +1,2 @@
+deploy:
+  - helm install -n shitomo --version 1.11.3 -f ./flux/config.yaml flux okteto/flux
